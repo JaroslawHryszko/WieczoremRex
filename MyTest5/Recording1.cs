@@ -79,6 +79,46 @@ namespace MyTest5
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.Female' at 43;5.", repo.FreeBMICalculator.FemaleInfo, new RecordItemIndex(0));
+            repo.FreeBMICalculator.Female.Click("43;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.CalculateBMI' at 85;10.", repo.FreeBMICalculator.CalculateBMIInfo, new RecordItemIndex(1));
+            repo.FreeBMICalculator.CalculateBMI.Click("85;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.Kilograms' at 69;16.", repo.FreeBMICalculator.KilogramsInfo, new RecordItemIndex(2));
+            repo.FreeBMICalculator.Kilograms.Click("69;16");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.Text10201' at 41;6.", repo.FreeBMICalculator.Text10201Info, new RecordItemIndex(3));
+            repo.FreeBMICalculator.Text10201.Click("41;6");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '54' with focus on 'FreeBMICalculator.Text10201'.", repo.FreeBMICalculator.Text10201Info, new RecordItemIndex(4));
+            repo.FreeBMICalculator.Text10201.PressKeys("54");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.BMICalculatorGroupBoxWeightID4451939' at 45;84.", repo.FreeBMICalculator.BMICalculatorGroupBoxWeightID4451939Info, new RecordItemIndex(5));
+            repo.FreeBMICalculator.BMICalculatorGroupBoxWeightID4451939.Click("45;84");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.Text10901' at 33;0.", repo.FreeBMICalculator.Text10901Info, new RecordItemIndex(6));
+            repo.FreeBMICalculator.Text10901.Click("33;0");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.Text10901' at 57;13.", repo.FreeBMICalculator.Text10901Info, new RecordItemIndex(7));
+            repo.FreeBMICalculator.Text10901.Click("57;13");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '75' with focus on 'FreeBMICalculator.Text10901'.", repo.FreeBMICalculator.Text10901Info, new RecordItemIndex(8));
+            repo.FreeBMICalculator.Text10901.PressKeys("75");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FreeBMICalculator.CalculateBMI' at 76;10.", repo.FreeBMICalculator.CalculateBMIInfo, new RecordItemIndex(9));
+            repo.FreeBMICalculator.CalculateBMI.Click("76;10");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

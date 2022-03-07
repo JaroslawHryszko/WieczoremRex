@@ -27,6 +27,7 @@ namespace MyTest5
     public partial class MyTest5Repository : RepoGenBaseFolder
     {
         static MyTest5Repository instance = new MyTest5Repository();
+        MyTest5RepositoryFolders.FreeBMICalculatorAppFolder _freebmicalculator;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyTest5Repository element repository.
@@ -43,6 +44,7 @@ namespace MyTest5
         public MyTest5Repository() 
             : base("MyTest5Repository", "/", null, 0, false, "6bba731e-af31-4ffe-a223-1894584db42d", ".\\RepositoryImages\\MyTest5Repository6bba731e.rximgres")
         {
+            _freebmicalculator = new MyTest5RepositoryFolders.FreeBMICalculatorAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace MyTest5
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The FreeBMICalculator folder.
+        /// </summary>
+        [RepositoryFolder("dfcd3c78-f281-4ffb-b96f-37a91afead9d")]
+        public virtual MyTest5RepositoryFolders.FreeBMICalculatorAppFolder FreeBMICalculator
+        {
+            get { return _freebmicalculator; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,202 @@ namespace MyTest5
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class MyTest5RepositoryFolders
     {
+        /// <summary>
+        /// The FreeBMICalculatorAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("dfcd3c78-f281-4ffb-b96f-37a91afead9d")]
+        public partial class FreeBMICalculatorAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _femaleInfo;
+            RepoItemInfo _calculatebmiInfo;
+            RepoItemInfo _kilogramsInfo;
+            RepoItemInfo _text10201Info;
+            RepoItemInfo _bmicalculatorgroupboxweightid4451939Info;
+            RepoItemInfo _text10901Info;
+
+            /// <summary>
+            /// Creates a new FreeBMICalculator  folder.
+            /// </summary>
+            public FreeBMICalculatorAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("FreeBMICalculator", "/form[@title='Free BMI Calculator']", parentFolder, 30000, null, true, "dfcd3c78-f281-4ffb-b96f-37a91afead9d", "")
+            {
+                _femaleInfo = new RepoItemInfo(this, "Female", "element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Female']", ".//radiobutton[@text='Female']", 30000, null, "ca027040-3dd4-408b-ba4f-9c85c7c38335");
+                _calculatebmiInfo = new RepoItemInfo(this, "CalculateBMI", "element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']", ".//button[@text='Calculate BMI']", 30000, null, "e17a22d4-7bb9-4e6c-b6f2-349d59d82dcd");
+                _kilogramsInfo = new RepoItemInfo(this, "Kilograms", "element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Kilograms']", ".//radiobutton[@text='Kilograms']", 30000, null, "4f9bb6b3-21c7-417f-a9fb-225abe5b4c24");
+                _text10201Info = new RepoItemInfo(this, "Text10201", "element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']", ".//text[@controlid='10201']", 30000, null, "2d557fbf-d78c-4721-b594-8a62565e3cf4");
+                _bmicalculatorgroupboxweightid4451939Info = new RepoItemInfo(this, "BMICalculatorGroupBoxWeightID4451939", "?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']", "?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']", 30000, null, "6cdfae59-53d3-4b9a-aa2b-10c8918c1e68");
+                _text10901Info = new RepoItemInfo(this, "Text10901", "element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']", ".//text[@controlid='10901']", 30000, null, "861fa2cc-8c71-41d9-9d0c-d7356c90aef5");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("dfcd3c78-f281-4ffb-b96f-37a91afead9d")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("dfcd3c78-f281-4ffb-b96f-37a91afead9d")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Female item.
+            /// </summary>
+            [RepositoryItem("ca027040-3dd4-408b-ba4f-9c85c7c38335")]
+            public virtual Ranorex.RadioButton Female
+            {
+                get
+                {
+                    return _femaleInfo.CreateAdapter<Ranorex.RadioButton>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Female item info.
+            /// </summary>
+            [RepositoryItemInfo("ca027040-3dd4-408b-ba4f-9c85c7c38335")]
+            public virtual RepoItemInfo FemaleInfo
+            {
+                get
+                {
+                    return _femaleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CalculateBMI item.
+            /// </summary>
+            [RepositoryItem("e17a22d4-7bb9-4e6c-b6f2-349d59d82dcd")]
+            public virtual Ranorex.Button CalculateBMI
+            {
+                get
+                {
+                    return _calculatebmiInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CalculateBMI item info.
+            /// </summary>
+            [RepositoryItemInfo("e17a22d4-7bb9-4e6c-b6f2-349d59d82dcd")]
+            public virtual RepoItemInfo CalculateBMIInfo
+            {
+                get
+                {
+                    return _calculatebmiInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Kilograms item.
+            /// </summary>
+            [RepositoryItem("4f9bb6b3-21c7-417f-a9fb-225abe5b4c24")]
+            public virtual Ranorex.RadioButton Kilograms
+            {
+                get
+                {
+                    return _kilogramsInfo.CreateAdapter<Ranorex.RadioButton>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Kilograms item info.
+            /// </summary>
+            [RepositoryItemInfo("4f9bb6b3-21c7-417f-a9fb-225abe5b4c24")]
+            public virtual RepoItemInfo KilogramsInfo
+            {
+                get
+                {
+                    return _kilogramsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text10201 item.
+            /// </summary>
+            [RepositoryItem("2d557fbf-d78c-4721-b594-8a62565e3cf4")]
+            public virtual Ranorex.Text Text10201
+            {
+                get
+                {
+                    return _text10201Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text10201 item info.
+            /// </summary>
+            [RepositoryItemInfo("2d557fbf-d78c-4721-b594-8a62565e3cf4")]
+            public virtual RepoItemInfo Text10201Info
+            {
+                get
+                {
+                    return _text10201Info;
+                }
+            }
+
+            /// <summary>
+            /// The BMICalculatorGroupBoxWeightID4451939 item.
+            /// </summary>
+            [RepositoryItem("6cdfae59-53d3-4b9a-aa2b-10c8918c1e68")]
+            public virtual Ranorex.Unknown BMICalculatorGroupBoxWeightID4451939
+            {
+                get
+                {
+                    return _bmicalculatorgroupboxweightid4451939Info.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BMICalculatorGroupBoxWeightID4451939 item info.
+            /// </summary>
+            [RepositoryItemInfo("6cdfae59-53d3-4b9a-aa2b-10c8918c1e68")]
+            public virtual RepoItemInfo BMICalculatorGroupBoxWeightID4451939Info
+            {
+                get
+                {
+                    return _bmicalculatorgroupboxweightid4451939Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text10901 item.
+            /// </summary>
+            [RepositoryItem("861fa2cc-8c71-41d9-9d0c-d7356c90aef5")]
+            public virtual Ranorex.Text Text10901
+            {
+                get
+                {
+                    return _text10901Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text10901 item info.
+            /// </summary>
+            [RepositoryItemInfo("861fa2cc-8c71-41d9-9d0c-d7356c90aef5")]
+            public virtual RepoItemInfo Text10901Info
+            {
+                get
+                {
+                    return _text10901Info;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

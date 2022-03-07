@@ -1,18 +1,115 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="MyTest5Repository"
-id="f0de2857-e386-4fd8-9cb0-c9521097fc38">
-  <codegen
-  classname="MyTest5Repository"
-  namespace="MyTest5"/>
-  <rootfolder
-  name="Root"
-  id="6bba731e-af31-4ffe-a223-1894584db42d"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+﻿<repository
+id="f0de2857-e386-4fd8-9cb0-c9521097fc38"
+name="MyTest5Repository">
+	<codegen
+	classname="MyTest5Repository"
+	namespace="MyTest5">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="6bba731e-af31-4ffe-a223-1894584db42d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="dfcd3c78-f281-4ffb-b96f-37a91afead9d"
+		isrooted="True"
+		name="FreeBMICalculator"
+		refpath="/form[@title='Free BMI Calculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="ca027040-3dd4-408b-ba4f-9c85c7c38335"
+			name="Female"
+			refimgid="26020c85-5237-43fb-a053-827541a83988"
+			refpath="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/element[@class='BMICalculator.GroupBox.Gender.ID4451939']/radiobutton[@text='Female']"
+			robustPath="/form[@title='Free BMI Calculator']//radiobutton[@text='Female']"
+			searchtimeout="30000ms">
+				/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Female']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e17a22d4-7bb9-4e6c-b6f2-349d59d82dcd"
+			name="CalculateBMI"
+			refimgid="bab307d8-67c0-4b03-b0e1-6b888e3eb9ca"
+			refpath="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/element[@class='BMICalculator.GroupBox.GO!.ID4451939']/button[@text='Calculate BMI']"
+			robustPath="/form[@title='Free BMI Calculator']//button[@text='Calculate BMI']"
+			searchtimeout="30000ms">
+				/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="4f9bb6b3-21c7-417f-a9fb-225abe5b4c24"
+			name="Kilograms"
+			refimgid="4784087b-28bb-4225-8cd7-860a36d2a94d"
+			refpath="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/element[@class='BMICalculator.GroupBox.Weight.ID4451939']/radiobutton[@text='Kilograms']"
+			robustPath="/form[@title='Free BMI Calculator']//radiobutton[@text='Kilograms']"
+			searchtimeout="30000ms">
+				/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Kilograms']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="2d557fbf-d78c-4721-b594-8a62565e3cf4"
+			name="Text10201"
+			refimgid="d3d8d48e-2242-4894-8650-0f9bc57564bf"
+			refpath="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/element[@class='BMICalculator.GroupBox.Height.ID4451939']/text[@controlid='10201']"
+			robustPath="/form[@title='Free BMI Calculator']//text[@controlid='10201']"
+			searchtimeout="30000ms">
+				/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="6cdfae59-53d3-4b9a-aa2b-10c8918c1e68"
+			name="BMICalculatorGroupBoxWeightID4451939"
+			refimgid="e5a717f8-850e-46d8-b868-b323b99f1ca6"
+			refpath="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/element[@class='BMICalculator.GroupBox.Weight.ID4451939']"
+			robustPath="/form[@title='Free BMI Calculator']/?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']"
+			searchtimeout="30000ms">
+				/form[@title='Free BMI Calculator']/?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="861fa2cc-8c71-41d9-9d0c-d7356c90aef5"
+			name="Text10901"
+			refimgid="ae0819d4-0f6a-418f-a182-070ce0705ed0"
+			refpath="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/element[@class='BMICalculator.GroupBox.Weight.ID4451939']/text[@controlid='10901']"
+			robustPath="/form[@title='Free BMI Calculator']//text[@controlid='10901']"
+			searchtimeout="30000ms">
+				/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']
+			</item>
+			<basepath>
+				/form[@title='Free BMI Calculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKZSURBVDhPdZNfSFNxFMfvtrv7d3N3boYY/ZeW
+Nps1nWZQQRghhUKZi/IPsrCUFLVIpvSQriICrYfqoZgIBSFYSj3llHqpB5+EgpYP/XNgIOZb5Nq3
+87tXgjF9+HLOved3Pr9zzzmXi01NYn+ZF6V7XRkK6HKTz5QeqygrwtR0DFx56S4sfFDxd96cpuW4
+hIEeGW/HFXq2ZMRZTnmgEFxRgWgcSHBIzXNkTWRNuHNNAMeZsTmPR3Leij/fBSzPsbMMYNKtb7fK
+AIIOSDGADjHh9zcr2kMKeN6CjvMyXj7Nw8jwECKR67gUchCQNwDeNQDMbz4j0e0mKLIFX2bsGOjv
+xuLiIlKpFLq6uzAbk9YHzL0XwJvNevkb3ALu3VQxOBhBPB5HMrmCvt4w3jy3rQ1gfRi+a9zO5HZZ
+UZBvxch9DybGRxGNRlFTlYd3r4ymrwl4eFukZE4HZKlmdLaoeDEsYSkuo9Aj4MkDWU9eF5CYFeF0
+8MhxCSjxUfd/WP8nnD0p4UobTYImlQmgEepjpEBdtYhIWIXDbsb0GMUpYYXetzZlofIgG2UGgG5I
+GKNhsAq/iLHHEo5XCrgVZjdySCYs6OtwYFOuQL6RkwZ4/UxBS6OGR4MqNubyWPqk4HKrgIuNxqL9
++iwhOqTi8AENX2eMPqQBetol1J5QqcsOtNTb0RzMQtURJxrqbOi64MQe2rr2kBPbtrDq2HqvAryr
+gGC1gtA5G9qaNARrZNTXiti53Yr6UxIaTsvw7BBRWizQZ0no7TRWWl/lgN+Dnx9Z+SpVkY3+qzmo
+OabSQTuVbNf9o4cUTIzYkL9VwY2wRqO1YYFyygMF4CZjk7pT4tPgL87GPpLf5yTrImkk5tM73XeT
+dVJc0//E2FQM/wA5rCOvPBDirwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>
