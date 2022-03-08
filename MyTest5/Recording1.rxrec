@@ -25,6 +25,23 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				F:\Szkolenia\Ranorex\aplikacje\BMI.exe
+			</filename>
+			<workingdir>
+				F:\Szkolenia\Ranorex\aplikacje
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -177,7 +194,6 @@ mode="Global">
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Female']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//radiobutton[@text='Female']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -397,7 +413,6 @@ RRQB/9k=
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//button[@text='Calculate BMI']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -608,7 +623,6 @@ FHsYdg9rPuH9mf8ATb/x3/69Z9FFYVoRjaxvRm5Xuf/Z
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Kilograms']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//radiobutton[@text='Kilograms']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -839,7 +853,6 @@ wrEoorvj/Cj8/wAzWjuz/9k=
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//text[@controlid='10201']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -1057,7 +1070,6 @@ j/D+tNoory8fvH5/obU9j//Z
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//text[@controlid='10201']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -1262,7 +1274,6 @@ igAooooAKKKKACiiigAooooAKKKKACiiigC1Y/x/h/Wm0UV5eP3j8/0Nqex//9k=
 					/form[@title='Free BMI Calculator']/?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']/?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -1568,7 +1579,6 @@ FAH/2Q==
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//text[@controlid='10901']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -1800,7 +1810,6 @@ uz//2Q==
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//text[@controlid='10901']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -2025,7 +2034,6 @@ oooAKKKKACiiigAooooAKKKKACiiigCe2/i/CsSiiu+P8KPz/M1o7s//2Q==
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//text[@controlid='10901']
 				</robustPath>
 			</info>
 			<helperscreenshot
@@ -2254,7 +2262,6 @@ ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAE9t/F+FYlFFd8f4Ufn+ZrR3Z//Z
 					/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']
 				</path>
 				<robustPath>
-					/form[@title='Free BMI Calculator']//button[@text='Calculate BMI']
 				</robustPath>
 			</info>
 			<helperscreenshot

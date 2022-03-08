@@ -104,6 +104,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\MyTest5.sln">
+      <Link>MyTest5.sln</Link>
+      <id>dd9b2a6d-8087-4f10-93e3-b83a0389da45</id>
+    </None>
     <None Include="app.config">
       <id>381153a8-f500-425f-bb13-218aaecc2c4f</id>
     </None>
