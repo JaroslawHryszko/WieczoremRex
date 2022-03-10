@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.56s"
+		durationms="12559"
+		type="root"
+		rid="160ebe7dd75df03d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Grzmichuj"
+		rxversion="10.1.6.0"
+		host="MKEBE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="pl-PL"
+		screenresolution="5760x1080"
+		timestamp="10.03.2022 12:12:18"
+		timestampiso="2022-03-10T11:12:18"
+		endtime="10.03.2022 12:12:30"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="7.37s"
+			durationms="7373"
+			type="test-suite"
+			rid="10a8fa9a52ac0f58"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest5"
+			headertext="MyTest5"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="7.31s"
+				durationms="7314"
+				type="test-case"
+				rid="1f9ef816db074cd9"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="6accd56b-7248-4037-8791-eed61a1f601e"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="7.29s"
+					durationms="7293"
+					type="test-module"
+					rid="d066ddaf4b1efbe"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="57e655ea-d5dc-4648-9443-264d3c600984"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.091"
+						timeRelativeToTestModuleStartTime="00:00.016"
+						timeWallClock="12:12:23"
+						time="00:00.091"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'F:\Szkolenia\Ranorex\aplikacje\BMI.exe' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.646"
+						timeRelativeToTestModuleStartTime="00:00.571"
+						timeWallClock="12:12:24"
+						time="00:00.646"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.Female' at 43;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Female']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Female']"
+							fullname="MyTest5Repository.FreeBMICalculator.Female"
+							id="ca0270403dd4408bba4f9c85c7c38335"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.836"
+						timeRelativeToTestModuleStartTime="00:03.761"
+						timeWallClock="12:12:27"
+						time="00:03.836"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.CalculateBMI' at 85;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']"
+							fullname="MyTest5Repository.FreeBMICalculator.CalculateBMI"
+							id="e17a22d47bb94e6cb6f2349d59d82dcd"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.301"
+						timeRelativeToTestModuleStartTime="00:04.226"
+						timeWallClock="12:12:27"
+						time="00:04.301"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.Kilograms' at 69;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Kilograms']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/radiobutton[@text='Kilograms']"
+							fullname="MyTest5Repository.FreeBMICalculator.Kilograms"
+							id="4f9bb6b321c7417fa9fb225abe5b4c24"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.751"
+						timeRelativeToTestModuleStartTime="00:04.676"
+						timeWallClock="12:12:28"
+						time="00:04.751"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.Text10201' at 41;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']"
+							fullname="MyTest5Repository.FreeBMICalculator.Text10201"
+							id="2d557fbfd78c4721b5948a62565e3cf4"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.216"
+						timeRelativeToTestModuleStartTime="00:05.141"
+						timeWallClock="12:12:28"
+						time="00:05.216"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '54' with focus on 'FreeBMICalculator.Text10201'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10201']"
+							fullname="MyTest5Repository.FreeBMICalculator.Text10201"
+							id="2d557fbfd78c4721b5948a62565e3cf4"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.359"
+						timeRelativeToTestModuleStartTime="00:05.284"
+						timeWallClock="12:12:28"
+						time="00:05.359"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.BMICalculatorGroupBoxWeightID4451939' at 45;84.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']"
+							itempath="?/?/element[@class='BMICalculator.GroupBox.Weight.ID4451939']"
+							fullname="MyTest5Repository.FreeBMICalculator.BMICalculatorGroupBoxWeightID4451939"
+							id="6cdfae5953d34b9aaa2b10c8918c1e68"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.849"
+						timeRelativeToTestModuleStartTime="00:05.774"
+						timeWallClock="12:12:29"
+						time="00:05.849"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.Text10901' at 33;0.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']"
+							fullname="MyTest5Repository.FreeBMICalculator.Text10901"
+							id="861fa2cc8c7141d99d0cd7356c90aef5"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.317"
+						timeRelativeToTestModuleStartTime="00:06.242"
+						timeWallClock="12:12:29"
+						time="00:06.317"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.Text10901' at 57;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']"
+							fullname="MyTest5Repository.FreeBMICalculator.Text10901"
+							id="861fa2cc8c7141d99d0cd7356c90aef5"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.783"
+						timeRelativeToTestModuleStartTime="00:06.709"
+						timeWallClock="12:12:30"
+						time="00:06.783"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '75' with focus on 'FreeBMICalculator.Text10901'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/text[@controlid='10901']"
+							fullname="MyTest5Repository.FreeBMICalculator.Text10901"
+							id="861fa2cc8c7141d99d0cd7356c90aef5"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.907"
+						timeRelativeToTestModuleStartTime="00:06.832"
+						timeWallClock="12:12:30"
+						time="00:06.907"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FreeBMICalculator.CalculateBMI' at 76;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='Free BMI Calculator']/element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']"
+							itempath="element[@class='BMICalculator.Container.ID4451939']/?/?/button[@text='Calculate BMI']"
+							fullname="MyTest5Repository.FreeBMICalculator.CalculateBMI"
+							id="e17a22d47bb94e6cb6f2349d59d82dcd"
+							timeout="60000"
+							codefile="C:\Users\Grzmichuj\Documents\Ranorex\RanorexStudio Projects\MyTest5\MyTest5\Recording1.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
